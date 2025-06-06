@@ -1,0 +1,27 @@
+# =========================================
+# 1) Python 가상환경 전체 제외
+.venv/
+.venv1/
+.venv38/
+venv/
+env/
+
+# 2) YOLO 체크포인트(모델 가중치) 전체 제외
+checkpoints/
+
+# 3) YOLO 가중치 단일 파일 무시 (필요시)
+yolov4.weights
+
+# 4) 결과 영상, 출력물 폴더(필요시)
+outputs/
+
+# 5) Python 캐시/바이트코드, 임시 파일
+__pycache__/
+*.py[cod]
+*.pyo
+*.orig
+*.log
+
+# 6) IDE/에디터 설정 폴더 (사용 중이라면)
+.vscode/
+.idea/
