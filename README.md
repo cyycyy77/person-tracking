@@ -1,8 +1,6 @@
 # Person-Tracking with YOLOv4 & DeepSORT
 
 > **Based on** [theAIGuysCode/yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort)  
-> **Customized by** Your Name
-
 ## 🚀 프로젝트 소개
 
 - **목표**: 영상에서 사람만 탐지하고, 각 사람에 고유 ID를 부여해 추적.  
